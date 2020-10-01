@@ -1,7 +1,7 @@
 name: Test
 on: push
 jobs:
-  check:
+  test:
     name: Test
     runs-on: ubuntu-latest
     steps:
