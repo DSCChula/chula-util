@@ -1,0 +1,14 @@
+name: Test
+on: push
+jobs:
+  check:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install modules
+        run: yarn
+      - name: Run Build
+        run: yarn build
+      - name: Run Test
+        run: yarn test
