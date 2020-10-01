@@ -1,7 +1,33 @@
-import { test } from ".";
+import { getFaculty, getFacultyList } from ".";
 
-describe("Hello world", () => {
-  it("Returns 'Hello World'", () => {
-    expect(test()).toEqual("Hello World");
+describe("getFacultyList", () => {
+  it("Returns list of faculties containing: code, name_en, name_th", () => {
+    const res = getFacultyList();
+    expect(
+      res.every((f) => "code" in f && "name_th" in f && "name_en" in f),
+    ).toBeTruthy();
+  });
+  it("It should return 29 faculties", () => {
+    const res = getFacultyList();
+    expect(res.length).toBe(29);
+  });
+});
+
+describe("getFaculty", () => {
+  it("Returns faculty from the faculty code specified", () => {
+    expect(getFaculty("21")).toEqual({
+      code: "21",
+      name_th: "คณะวิศวกรรมศาสตร์",
+      name_en: "Faculty of Engineering",
+    });
+    expect(getFaculty("22")).toEqual({
+      code: "22",
+      name_th: "คณะอักษรศาสตร์",
+      name_en: "Faculty of Arts",
+    });
+  });
+
+  it("Returns undefined if the faculty code is not found", () => {
+    expect(getFaculty("123")).toBeUndefined();
   });
 });

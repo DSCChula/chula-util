@@ -5,9 +5,9 @@ Playground for testing/ playing around with typescript.
 ## TODO
 
 - [ ] Student ID Parser
-- [ ] Faculty ID/ Name List (EN)
-- [ ] Faculty ID/ Name List (TH)
-- [ ] Faculty ID/ Name Lookup
+- [x] Faculty ID/ Name List (EN)
+- [x] Faculty ID/ Name List (TH)
+- [x] Faculty ID/ Name Lookup
 - [ ] Subject name Parser
 
 ## Usage
