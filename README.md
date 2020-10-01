@@ -10,6 +10,10 @@ Playground for testing/ playing around with typescript.
 [ ] Faculty ID/ Name Lookup
 [ ] Subject name Parser
 
+## Usage
+
+To be added...
+
 ## Contributions
 
 To be added...
