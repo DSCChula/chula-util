@@ -1,14 +1,15 @@
-# Typescript Playground
+# Chulalongkorn University Utils
 
 Playground for testing/ playing around with typescript.
 
-## Features
+## TODO
 
-- VSCode integration
-- Linter Setup
-- Hot Reload (ts-node-dev)
+[ ] Student ID Parser
+[ ] Faculty ID/ Name List (EN)
+[ ] Faculty ID/ Name List (TH)
+[ ] Faculty ID/ Name Lookup
+[ ] Subject name Parser
 
-## Usage
+## Contributions
 
-Installation: `yarn`
-Usage: `yarn dev`
+To be added...
