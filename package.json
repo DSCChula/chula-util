@@ -1,4 +1,22 @@
 {
+  "name": "chula-util",
+  "description": "Playground for testing/ playing around with typescript.",
+  "version": "1.0.0",
+  "main": "out/index.js",
+  "types": "out/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DSCChula/chula-util.git"
+  },
+  "keywords": [
+    "Chula"
+  ],
+  "author": "DSCChula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DSCChula/chula-util/issues"
+  },
+  "homepage": "https://github.com/DSCChula/chula-util#readme",
   "dependencies": {},
   "scripts": {
     "dev": "ts-node-dev --respawn src/index.ts",
@@ -8,7 +26,11 @@
     "format": "prettier src",
     "format:check": "prettier --check src",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
-    "watch": "tsc --watch index.ts"
+    "watch": "tsc --watch index.ts",
+    "prepare": "yarn build",
+    "preversion": "yarn lint",
+    "prepublishOnly": "yarn test && yarn lint",
+    "version": "yarn format && git add -A src"
   },
   "devDependencies": {
     "@types/jest": "^26.0.14",
@@ -22,22 +44,5 @@
     "ts-node": "^8.10.2",
     "ts-node-dev": "^1.0.0-pre.50",
     "typescript": "^3.9.5"
-  },
-  "name": "chula-util",
-  "description": "Playground for testing/ playing around with typescript.",
-  "version": "1.0.0",
-  "main": "out/index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DSCChula/chula-util.git"
-  },
-  "keywords": [
-    "Chula"
-  ],
-  "author": "DSCChula",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DSCChula/chula-util/issues"
-  },
-  "homepage": "https://github.com/DSCChula/chula-util#readme"
+  }
 }
