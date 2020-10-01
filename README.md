@@ -1,6 +1,7 @@
 # Chulalongkorn University Utils
 
 Playground for testing/ playing around with typescript.
+Faculty IDs and Major codes can be browsed from : https://cas.reg.chula.ac.th/cu/general/PersonalInformation/Faculty/IndexDisplayFaculty.html
 
 ## TODO
 
