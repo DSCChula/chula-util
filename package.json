@@ -17,7 +17,9 @@
     "url": "https://github.com/DSCChula/chula-util/issues"
   },
   "homepage": "https://github.com/DSCChula/chula-util#readme",
-  "dependencies": {},
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  },
   "scripts": {
     "dev": "ts-node-dev --respawn src/index.ts",
     "build": "tsc",
