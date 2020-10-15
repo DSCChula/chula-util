@@ -1,4 +1,4 @@
-import { getFaculty, getFacultyList } from ".";
+import { getFaculty, getFacultyList, getSubjectList } from ".";
 
 describe("getFacultyList", () => {
   it("should return list of faculties containing: code, name_en, name_th", () => {
@@ -30,4 +30,18 @@ describe("getFaculty", () => {
   it("should return undefined if the faculty code is not found", () => {
     expect(getFaculty("123")).toBeUndefined();
   });
+});
+
+describe("getSubject", () => {
+  it("It should return list of subjects containing: code, codeName, facultyCode, name_en, name_th, isClosed, openSemester and closeSemester", () => {
+    const subjectList = getSubjectList();
+    expect(subjectList.every(s => "code" in s && "codeName" in s && "facultyCode" in s && "name_en" in s && "name_th" in s && "isClosed" in s && "openSemester" in s && "closeSemester" in s)).toBeTruthy();
+  });
+  it("It should return 110 subjects", () => {
+    expect(getSubjectList()).toHaveLength(110);
+  });
+  //  TODO: All subject's code, codeName, facultyCode, name_en, name_th, openSemester should be string
+  //  TODO: closeSemester should be string or undefined
+  //  TODO: isClosed should be boolean and should be consistence to closeSemester
+
 });
