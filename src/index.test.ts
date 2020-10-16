@@ -33,8 +33,8 @@ describe("getFaculty", () => {
 });
 
 describe("getSubject", () => {
-  it("It should return list of subjects containing: code, abbr, facultyCode, name, isClosed, openSemester and closeSemester", () => {
-    const subjectList = getSubjectList();
+  it("should return list of subjects containing: code, abbr, facultyCode, name, isClosed, openSemester and closeSemester", async () => {
+    const subjectList = await getSubjectList();
     subjectList.forEach((s) => {
       expect(s).toHaveProperty("code");
       expect(s).toHaveProperty("abbr");

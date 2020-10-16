@@ -1,6 +1,7 @@
 import { Faculty, FacultyMap, Subject } from "./types";
 import f from "./faculties.json";
-import fs from "fs";
+import axios from "axios";
+import iconv from "iconv-lite";
 
 const faculties = f as FacultyMap;
 
@@ -19,21 +20,36 @@ export const getFaculty = (code: string): Faculty | undefined => {
 };
 
 //  TODO: Get subjects from all faculties
-export const getSubjectList = (): Subject[] => {
-  //  URL = "https://www.reg.chula.ac.th/document/courseName02.txt"
-  const data: string = fs.readFileSync("./src/courseName02.txt", "utf8");
+export const getSubjectList = async (): Promise<Subject[]> => {
+  const GEN_ED_FACULTY_CODE = "02";
+  let response;
+  try {
+    response = await axios.get(
+      "https://www.reg.chula.ac.th/document/courseName02.txt",
+      {
+        responseType: "arraybuffer",
+        transformResponse: [
+          (data) => {
+            return iconv.decode(Buffer.concat([data]), "TIS-620");
+          },
+        ],
+      },
+    );
+  } catch (e) {
+    throw e;
+  }
   const regex = /(\d+)\s+(\d+)\s+((?:\S+\s)+)\s+(\d\/\d+)(?:\s+)?(\d\/\d+)?\n(?:\s+)?([^\n]*)?\n(?:\s+)?([^\n]*)\n/g;
-  const regexResults: RegExpMatchArray | null = data.match(regex);
-  if (regexResults === null) throw Error;
+  const regexResults: RegExpMatchArray | null = response.data.match(regex);
+  if (regexResults === null) throw Error("subject data format doesn't match");
   const subjectList = regexResults.map<Subject>((s) => {
     const subject = s.split(regex);
     return {
       code: subject[2],
-      facultyCode: "02",
+      facultyCode: GEN_ED_FACULTY_CODE,
       abbr: subject[7],
       name: {
-        en: subject[3],
-        th: subject[6],
+        en: subject[3].trim(),
+        th: subject[6].trim(),
       },
       isClosed: subject[5] !== undefined,
       openSemester: subject[4],
