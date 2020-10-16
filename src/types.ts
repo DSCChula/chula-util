@@ -10,10 +10,12 @@ export interface FacultyMap {
 
 export interface Subject {
   code: string;
-  codeName: string;
+  abbr: string;
   facultyCode: string;
-  name_en: string;
-  name_th: string;
+  name: {
+    th: string;
+    en: string;
+  };
   isClosed: boolean;
   openSemester: string;
   closeSemester: string;

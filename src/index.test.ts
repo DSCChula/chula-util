@@ -33,15 +33,19 @@ describe("getFaculty", () => {
 });
 
 describe("getSubject", () => {
-  it("It should return list of subjects containing: code, codeName, facultyCode, name_en, name_th, isClosed, openSemester and closeSemester", () => {
+  it("It should return list of subjects containing: code, abbr, facultyCode, name, isClosed, openSemester and closeSemester", () => {
     const subjectList = getSubjectList();
-    expect(subjectList.every(s => "code" in s && "codeName" in s && "facultyCode" in s && "name_en" in s && "name_th" in s && "isClosed" in s && "openSemester" in s && "closeSemester" in s)).toBeTruthy();
-  });
-  it("It should return 110 subjects", () => {
-    expect(getSubjectList()).toHaveLength(110);
+    subjectList.forEach((s) => {
+      expect(s).toHaveProperty("code");
+      expect(s).toHaveProperty("abbr");
+      expect(s).toHaveProperty("facultyCode");
+      expect(s).toHaveProperty("name");
+      expect(s).toHaveProperty("isClosed");
+      expect(s).toHaveProperty("openSemester");
+      expect(s).toHaveProperty("closeSemester");
+    });
   });
   //  TODO: All subject's code, codeName, facultyCode, name_en, name_th, openSemester should be string
   //  TODO: closeSemester should be string or undefined
   //  TODO: isClosed should be boolean and should be consistence to closeSemester
-
 });
