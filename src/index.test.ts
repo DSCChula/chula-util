@@ -1,4 +1,5 @@
 import { getFaculty, getFacultyList, getSubjectList } from ".";
+import { Subject } from "./types";
 
 describe("getFacultyList", () => {
   it("should return list of faculties containing: code, name_en, name_th", () => {
@@ -33,19 +34,36 @@ describe("getFaculty", () => {
 });
 
 describe("getSubject", () => {
-  it("should return list of subjects containing: code, abbr, facultyCode, name, isClosed, openSemester and closeSemester", async () => {
-    const subjectList = await getSubjectList();
-    subjectList.forEach((s) => {
-      expect(s).toHaveProperty("code");
-      expect(s).toHaveProperty("abbr");
-      expect(s).toHaveProperty("facultyCode");
-      expect(s).toHaveProperty("name");
-      expect(s).toHaveProperty("isClosed");
-      expect(s).toHaveProperty("openSemester");
-      expect(s).toHaveProperty("closeSemester");
+  const facultyList = getFacultyList();
+  const noSubjectFacultyCodeList = ["56", "58", "99", "01"];
+  const filteredFacultyList = facultyList.filter((f) => {
+    return !noSubjectFacultyCodeList.includes(f.code);
+  });
+  filteredFacultyList.forEach((faculty) => {
+    describe(`when getting subjects from facultyId ${faculty.code}`, () => {
+      it(`should not be undefined`, async () => {
+        const subjectList = await getSubjectList(faculty.code);
+        expect(subjectList).not.toBeUndefined();
+      });
+      it("should return list of subjects with correct properties", async () => {
+        const subjectList = await getSubjectList(faculty.code);
+        if (subjectList === undefined) throw Error("subjectList is undefined");
+        subjectList.forEach((s) => {
+          expect(s).toHaveProperty("code");
+          expect(s).toHaveProperty("abbr");
+          expect(s).toHaveProperty("facultyCode");
+          expect(s).toHaveProperty("name");
+          expect(s).toHaveProperty("isClosed");
+          expect(s).toHaveProperty("openSemester");
+          expect(s).toHaveProperty("closeSemester");
+        });
+      });
     });
   });
-  //  TODO: All subject's code, codeName, facultyCode, name_en, name_th, openSemester should be string
-  //  TODO: closeSemester should be string or undefined
-  //  TODO: isClosed should be boolean and should be consistence to closeSemester
+  describe(`when getting subjects from faculty with no subjects`, () => {
+    it(`should return undefined`, async () => {
+      const subjectList = await getSubjectList(noSubjectFacultyCodeList[0]);
+      expect(subjectList).toBeUndefined();
+    });
+  });
 });
