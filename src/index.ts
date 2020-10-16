@@ -19,13 +19,13 @@ export const getFaculty = (code: string): Faculty | undefined => {
   return { code, ...res };
 };
 
-//  TODO: Get subjects from all faculties
-export const getSubjectList = async (): Promise<Subject[]> => {
-  const GEN_ED_FACULTY_CODE = "02";
+export const getSubjectList = async (
+  facultyCode: string,
+): Promise<Subject[] | undefined> => {
   let response;
   try {
     response = await axios.get(
-      "https://www.reg.chula.ac.th/document/courseName02.txt",
+      `https://www.reg.chula.ac.th/document/courseName${facultyCode}.txt`,
       {
         responseType: "arraybuffer",
         transformResponse: [
@@ -36,16 +36,16 @@ export const getSubjectList = async (): Promise<Subject[]> => {
       },
     );
   } catch (e) {
-    throw e;
+    return undefined;
   }
   const regex = /(\d+)\s+(\d+)\s+((?:\S+\s)+)\s+(\d\/\d+)(?:\s+)?(\d\/\d+)?\n(?:\s+)?([^\n]*)?\n(?:\s+)?([^\n]*)\n/g;
   const regexResults: RegExpMatchArray | null = response.data.match(regex);
-  if (regexResults === null) throw Error("subject data format doesn't match");
+  if (regexResults === null) return undefined;
   const subjectList = regexResults.map<Subject>((s) => {
     const subject = s.split(regex);
     return {
       code: subject[2],
-      facultyCode: GEN_ED_FACULTY_CODE,
+      facultyCode,
       abbr: subject[7],
       name: {
         en: subject[3].trim(),
