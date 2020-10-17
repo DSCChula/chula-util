@@ -13,10 +13,14 @@ export interface Subject {
   abbr: string;
   facultyCode: string;
   name: {
-    th: string;
+    th?: string;
     en: string;
   };
   isClosed: boolean;
   openSemester: string;
-  closeSemester: string;
+  closeSemester?: string;
+}
+
+export interface SubjectMap {
+  [code: string]: Omit<Subject, "code">;
 }
