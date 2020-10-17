@@ -1,4 +1,4 @@
-import { getFaculty, getFacultyList } from ".";
+import { getFaculty, getFacultyList, parseStudentID } from ".";
 
 describe("getFacultyList", () => {
   it("should return list of faculties containing: code, name_en, name_th", () => {
@@ -29,5 +29,19 @@ describe("getFaculty", () => {
 
   it("should return undefined if the faculty code is not found", () => {
     expect(getFaculty("123")).toBeUndefined();
+  });
+});
+
+describe("parseStudentID", () => {
+  it("should return undefined if the student ID is wrong formatted", () => {
+    expect(parseStudentID("123973534")).toBeUndefined();
+  });
+
+  it("should return student info from the student ID", () => {
+    const result = parseStudentID("6031308121");
+
+    expect(result).toBeDefined();
+    expect(result!.year).toEqual(2017);
+    expect(result!.faculty?.code).toEqual("21");
   });
 });
