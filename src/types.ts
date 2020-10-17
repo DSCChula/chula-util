@@ -7,3 +7,8 @@ export interface Faculty {
 export interface FacultyMap {
   [code: string]: Omit<Faculty, "code">;
 }
+
+export interface StudentInfo {
+  year: number;
+  faculty?: Faculty;
+}
