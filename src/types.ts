@@ -7,3 +7,20 @@ export interface Faculty {
 export interface FacultyMap {
   [code: string]: Omit<Faculty, "code">;
 }
+
+export interface Subject {
+  code: string;
+  abbr: string;
+  facultyCode: string;
+  name: {
+    th?: string;
+    en: string;
+  };
+  isClosed: boolean;
+  openSemester: string;
+  closeSemester?: string;
+}
+
+export interface SubjectMap {
+  [code: string]: Omit<Subject, "code">;
+}
