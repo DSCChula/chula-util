@@ -2,6 +2,7 @@ import { Faculty, FacultyMap, Subject } from "./types";
 import f from "./faculties.json";
 import axios from "axios";
 import iconv from "iconv-lite";
+const fs = require("fs");
 
 const faculties = f as FacultyMap;
 
@@ -22,39 +23,53 @@ export const getFaculty = (code: string): Faculty | undefined => {
 export const getSubjectList = async (
   facultyCode: string,
 ): Promise<Subject[] | undefined> => {
-  let response;
-  try {
-    response = await axios.get(
-      `https://www.reg.chula.ac.th/document/courseName${facultyCode}.txt`,
-      {
-        responseType: "arraybuffer",
-        transformResponse: [
-          (data) => {
-            return iconv.decode(Buffer.concat([data]), "TIS-620");
-          },
-        ],
-      },
-    );
-  } catch (e) {
-    return undefined;
-  }
-  const regex = /(\d+)\s+(\d+)\s+((?:\S+\s)+)\s+(\d\/\d+)(?:\s+)?(\d\/\d+)?\n(?:\s+)?([^\n]*)?\n(?:\s+)?([^\n]*)\n/g;
-  const regexResults: RegExpMatchArray | null = response.data.match(regex);
-  if (regexResults === null) return undefined;
-  const subjectList = regexResults.map<Subject>((s) => {
-    const subject = s.split(regex);
-    return {
-      code: subject[2],
-      facultyCode,
-      abbr: subject[7],
-      name: {
-        en: subject[3].trim(),
-        th: subject[6].trim(),
-      },
-      isClosed: subject[5] !== undefined,
-      openSemester: subject[4],
-      closeSemester: subject[5],
-    };
+  const facultyList = getFacultyList();
+  const noSubjectFacultyCodeList = ["56", "58", "99", "01"];
+  const filteredFacultyList = facultyList.filter((f) => {
+    return !noSubjectFacultyCodeList.includes(f.code);
   });
-  return subjectList;
+  let results: any[] = [];
+  for (const fc of filteredFacultyList) {
+    try {
+      const response = await axios.get(
+        `https://www.reg.chula.ac.th/document/courseName${fc.code}.txt`,
+        {
+          responseType: "arraybuffer",
+          transformResponse: [
+            (data) => {
+              return iconv.decode(Buffer.concat([data]), "TIS-620");
+            },
+          ],
+        },
+      );
+      const regex = /(\d+)\s+(\d+)\s+((?:\S+\s)+)\s+(\d\/\d+)(?:\s+)?(\d\/\d+)?\n(?:\s+)?([^\n]*)?\n(?:\s+)?([^\n]*)\n/g;
+      const regexResults: RegExpMatchArray | null = response.data.match(regex);
+      if (regexResults === null) throw new Error("NULL");
+      const subjectList = regexResults.map<Subject>((s) => {
+        const subject = s.split(regex);
+        return {
+          code: subject[2],
+          facultyCode: fc.code,
+          abbr: subject[7],
+          name: {
+            en: subject[3].trim(),
+            th: subject[6].trim(),
+          },
+          isClosed: subject[5] !== undefined,
+          openSemester: subject[4],
+          closeSemester: subject[5],
+        };
+      });
+      results = results.concat(subjectList);
+    } catch (e) {
+      throw e;
+    }
+  }
+  const jsonData = JSON.stringify(results);
+  fs.writeFile(`subjects.json`, jsonData, function (err: any) {
+    if (err) {
+      console.log(err);
+    }
+  });
+  return results;
 };
