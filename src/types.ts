@@ -3,3 +3,7 @@ export interface Faculty {
   name_en: string;
   name_th: string;
 }
+
+export interface FacultyMap {
+  [code: string]: Omit<Faculty, "code">;
+}
