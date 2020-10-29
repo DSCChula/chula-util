@@ -16,3 +16,5 @@ export const getFaculty = (code: string): Faculty | undefined => {
   const res = faculties[code];
   return { code, ...res };
 };
+
+export * from "./building";

@@ -1,0 +1,478 @@
+{
+  "ANAND": { "name_th": "ตึกอานันทมหิดล", "name_en": "ANANDHAMAHIDOL" },
+  "ANAT": { "name_th": "ตึกกายวิภาคศาสตร์", "name_en": "ANATOMY" },
+  "APAN": { "name_th": "ตึกอภันตรีปชา", "name_en": "APANTRIPACHA" },
+  "AR": { "name_th": "AR", "name_en": "AR" },
+  "ARCH": { "name_th": "ตึกคณะสถาปัตยกรรมศาสตร์", "name_en": "ARCHITECTURE" },
+  "ARCH1": { "name_th": "อาคารสถาปัตยกรรม 1", "name_en": "ARCHITECTURE 1" },
+  "ARCH2": { "name_th": "อาคารสถาปัตยกรรม 2", "name_en": "ARCHITECTURE 2" },
+  "ARTS2": { "name_th": "ตึก 2", "name_en": "ARTS 2" },
+  "ARTS4": { "name_th": "ตึก 4", "name_en": "ARTS 4" },
+  "BANGK": { "name_th": "ตึกธนาคารกรุงเทพ", "name_en": "BANGKOK BANK" },
+  "BHPR": { "name_th": "ตึก ภ.ป.ร.", "name_en": "BHOR POR ROR" },
+  "BHUMI": {
+    "name_th": "ภูมิสิริมังคลานุสรณ์",
+    "name_en": "BHUMISIRIMANGALANUSORN"
+  },
+  "BIO1": { "name_th": "ตึกชีววิทยา 1", "name_en": "BIOLOGY 1" },
+  "BOT": { "name_th": "ตึกพฤกษศาสตร์", "name_en": "BOTANY" },
+  "BRK": {
+    "name_th": "อาคารบรมราชกุมารี",
+    "name_en": "BOROMRAJAKUMARI BUILDING"
+  },
+  "BSB": {
+    "name_th": "อาคารบรมราชชนนีศรีศตพรรษ",
+    "name_en": "BOROMMARATCHONNANI SRISATAPHAT BUILDING"
+  },
+  "BSB2": {
+    "name_th": "อาคารบรมราชชนนีศรีศตพรรษ",
+    "name_en": "BOROMMARATCHONNANI SRISATAPHAT BUILDING"
+  },
+  "CAMP": { "name_th": "ค่ายฝึกสำรวจ", "name_en": "SURVEYING CAMP" },
+  "CAR": {
+    "name_th": "สถาบันวิทยบริการ",
+    "name_en": "CENTER OF ACADEMIC RESOURCES"
+  },
+  "CART1": { "name_th": "ตึก 1", "name_en": "COMMUNICATION ARTS 1" },
+  "CART2": { "name_th": "ตึก 2", "name_en": "COMMUNICATION ARTS 2" },
+  "CE": {
+    "name_th": "ภาควิชาวิศวกรรมโยธา",
+    "name_en": "CIVIL ENGINEERING DEPARTMENT"
+  },
+  "CELAB": {
+    "name_th": "ตึกปฏิบัติการภาควิชาวิศวกรรมโยธา",
+    "name_en": "CIVIL ENGINEERING LABORATORY"
+  },
+  "CHALE": {
+    "name_th": "อาคารเฉลิมราชกุมารี 60 พรรษา",
+    "name_en": "CHALERM RAJAKUMARI 60"
+  },
+  "CHAN": {
+    "name_th": "โรงพยาบาลพระปกเกล้าจันทบุรี",
+    "name_en": "PRAPOKKLAO CHANTHABURI HOSPITAL"
+  },
+  "CHANT": { "name_th": "จันทนยิ่งยง", "name_en": "CHANTANAYINGYONG" },
+  "CHARO": {
+    "name_th": "ตึกเจริญ-สมศรี เจริญรัชต์ภาคย์",
+    "name_en": "CHAROEN-SOMSRI CHAROENRAJAPARK"
+  },
+  "CHE": {
+    "name_th": "ตึกภาควิชาวิศวกรรมเคมี",
+    "name_en": "CHEMICAL ENGINEERING DEPARTMENT"
+  },
+  "CHEM1": { "name_th": "ตึกเคมี 1", "name_en": "CHEMISTRY I" },
+  "CHEM2": { "name_th": "ตึกเคมี 2", "name_en": "CHEMISTRY II" },
+  "CHEM3": { "name_th": "ตึกเคมี 3", "name_en": "CHEMISTRY III" },
+  "CHEMT": { "name_th": "ตึกเคมีเทคนิค", "name_en": "CHEMICAL TECHNOLOGY" },
+  "CHLAB": {
+    "name_th": "ตึกภาควิชาวิศวกรรมเคมี",
+    "name_en": "CHEMICAL ENGINEERING LABORATORY"
+  },
+  "CHMSQ": {
+    "name_th": "จัตุรัสจามจุรี ชั้น 14 ธุรกิจเทคโนโลยีและการจัดการนวัตกรรม",
+    "name_en": "CHAMCHURI SQUARE F14 TIP"
+  },
+  "CHOL": { "name_th": "โรงพยาบาลชลบุรี", "name_en": "CHOLBURI HOSPITAL" },
+  "CHOM1": { "name_th": "ชมพูภูคา1", "name_en": "CHOMPOOPHUKA1" },
+  "CHONG": { "name_th": "ตึกจงกลณี", "name_en": "CHONGKOLNEE" },
+  "CHUHO": {
+    "name_th": "โรงพยาบาลจุฬาภรณ์ (ศูนย์โรคลมชัก สถาบันวิจัยจุฬาภรณ์)",
+    "name_en": "CHULABHORN HOSPITAL"
+  },
+  "CHUL": {
+    "name_th": "ตึกจุลจักรพงษ์",
+    "name_en": "CHULACHAKRAPONG BUILDING"
+  },
+  "CHULA": { "name_th": "จุฬาภรณ์", "name_en": "CHULABHORN" },
+  "CHULM": { "name_th": "ตึกจุลจักรพงษ์", "name_en": "CHULACHAKRAPONGSE" },
+  "CHUMP": {
+    "name_th": "ตึกจุมภฎพงษ์บริพัตร ภาควิชาจักษุวิทยา",
+    "name_en": "CHUMPORTPONGBORIPAT"
+  },
+  "CIVIL": { "name_th": "วิศวกรรมโยธา", "name_en": "ENGINEERNING DEPARTMENT" },
+  "COM1": { "name_th": "อาคารไชยยศสมบัติ 1", "name_en": "CHAIYOSSOMBAT 1" },
+  "COM2": { "name_th": "อาคารไชยยศสมบัติ 2", "name_en": "CHAIYOSSOMBAT 2" },
+  "COM3": { "name_th": "อาคารไชยยศสมบัติ 3", "name_en": "CHAIYOSSOMBAT 3" },
+  "COM4": { "name_th": "อาคาร 4", "name_en": "COMMERCE AND ACCOUNTANCY 4" },
+  "COM5": { "name_th": "อาคาร 5", "name_en": "COMMERCE AND ACCOUNTANCY 5" },
+  "COM7": { "name_th": "อาคาร 7", "name_en": "COMMERCE AND ACCOUNTANCY 7" },
+  "COM8": {
+    "name_th": "อาคาร 8 (อนุสรณ์ 50 ปี)",
+    "name_en": "COMMERCE AND ACCOUNTANCY 8 : 50 YEAR ANUSORN"
+  },
+  "COM9": { "name_th": "อาคาร 9", "name_en": "COMMERCE AND ACCOUNTANCY 9" },
+  "COMP": { "name_th": "ตึกคอมพิวเตอร์", "name_en": "COMPUTER ENGINEERING" },
+  "CU14A": {
+    "name_th": "จุฬาพัฒน์ 14 (คณะสหเวชศาสตร์)",
+    "name_en": "CHULAPAT 14 (ALLIED HEALTH SCIENCE)"
+  },
+  "CU14S": { "name_th": "จุฬาพัฒน์ 14", "name_en": "CHULAPAT 14" },
+  "CUE4": {
+    "name_th": "โรงเรียนสาธิตจุฬาลงกรณ์มหาวิทยาลัย (ฝ่ายมัธยม)",
+    "name_en": "CHULALONGKORN UNIVERSITY DEMONSTRATION SECONDARY SCHOOL"
+  },
+  "CUP10": { "name_th": "จุฬาพัฒน์ 10", "name_en": "CHULAPAT 10" },
+  "CUP12": { "name_th": "จุฬาพัฒน์ 12", "name_en": "CHULAPAT 12" },
+  "CUP13": { "name_th": "จุฬาพัฒน์ 13", "name_en": "CHULAPAT 13" },
+  "CUP1A": {
+    "name_th": "อาคารจุฬาพัฒน์ 1(คณะสหเวชศาสตร์)",
+    "name_en": "CHULAPAT1(ALLIED HEALTH SCIENCES)"
+  },
+  "CUP2": { "name_th": "จุฬาพัฒน์ 2", "name_en": "CHULAPAT 2" },
+  "CUP2A": {
+    "name_th": "อาคารจุฬาพัฒน์ 2 (คณะสหเวชศาสตร์)",
+    "name_en": "CHULAPAT 2 (ALLIED HEALTH SCIENCE)"
+  },
+  "CUP3A": {
+    "name_th": "อาคารจุฬาพัฒน์3 (คณะสหเวชศาสตร์)",
+    "name_en": "CHULAPAT3(ALLIED HEALTH SCIENCE)"
+  },
+  "CUP4": { "name_th": "จุฬาพัฒน์ 4", "name_en": "CHULAPAT 4" },
+  "CUP4A": {
+    "name_th": "อาคารจุฬาพัฒน์ 4(คณะสหเวชศาสตร์)",
+    "name_en": "CHULAPAT 4(ALLIED HEALTH SCIENCES)"
+  },
+  "CUP5": { "name_th": "จุฬาพัฒน์ 5", "name_en": "CHULAPAT 5" },
+  "CUP5N": {
+    "name_th": "จุฬาพัฒน์5 (คณะพยาบาลศาสตร์)",
+    "name_en": "CHULAPAT5 (NURSING)"
+  },
+  "CUP5P": {
+    "name_th": "จุฬาพัฒน์ 5 (คณะจิตวิทยา)",
+    "name_en": "CHULAPAT 5 (PSYCHOLOGY)"
+  },
+  "CUP7": { "name_th": "อาคารจุฬาพัฒน์7", "name_en": "CHULAPAT7 BUILDING" },
+  "CUP8": { "name_th": "อาคารจุฬาพัฒน์8", "name_en": "CHULAPAT8" },
+  "CUSC": {
+    "name_th": "ศูนย์กีฬาแห่งจุฬาลงกรณ์มหาวิทยาลัย",
+    "name_en": "CHULALONGKORN UNIVERSITY SPORTS CENTER"
+  },
+  "CUSCS": {
+    "name_th": "สระว่ายน้ำ ศูนย์กีฬาแห่งจุฬาลงกรณ์มหาวิทยาลัย",
+    "name_en": "CU SPORTCENTER SWIMMIN POOL"
+  },
+  "CUSCT": {
+    "name_th": "สนามเทนนิส ศูนย์กีฬาแห่งจุฬาลงกรณ์มหาวิทยาลัย",
+    "name_en": "CU SPORTSCENTER TENNIS COURT"
+  },
+  "CUSTA": {
+    "name_th": "สนามกีฬาจุฬาลงกรณ์มหาวิทยาลัย",
+    "name_en": "CU STADUIM"
+  },
+  "CUW1": { "name_th": "จุฬาวิชช์ 1", "name_en": "CHULAWIT 1" },
+  "DEN14": { "name_th": "ตึก 14", "name_en": "DENTISTRY 14" },
+  "DEN15": { "name_th": "ตึกสมเด็จย่า 93 ปี", "name_en": "SOMDEJYA 93" },
+  "DEN16": {
+    "name_th": "อาคารทันตแพทยศาสตร์เฉลิมนวมราช80",
+    "name_en": "CHALERMNAWAMARAJ"
+  },
+  "DEN17": {
+    "name_th": "อาคารบรมนาถ ศรีนครินทร์",
+    "name_en": "BOROMMANARD SRINAKARIN BUILDING"
+  },
+  "DENT1": { "name_th": "ตึก 1", "name_en": "DENTISTRY 1" },
+  "DENT2": { "name_th": "ตึก 2", "name_en": "DENTISTRY 2" },
+  "DENT3": { "name_th": "ตึก 3", "name_en": "DENTISTRY 3" },
+  "DENT4": { "name_th": "ตึก 4", "name_en": "DENTISTRY 4" },
+  "DENT5": { "name_th": "ตึก 5", "name_en": "DENTISTRY 5" },
+  "DENT6": { "name_th": "ตึก 6", "name_en": "DENTISTRY 6" },
+  "DENT7": { "name_th": "ตึก 7", "name_en": "DENTISTRY 7" },
+  "DENT8": { "name_th": "ตึก 8", "name_en": "DENTISTRY 8" },
+  "DHAMA": { "name_th": "ตึกธรรมสถาน", "name_en": "DHAMASATHAN BUILDING" },
+  "ECON": { "name_th": "ตึกคณะ", "name_en": "FACULTY OF ECONOMICS" },
+  "EDL": {
+    "name_th": "ตึกปฏิบัติการออกแบบวงจรอิเล็กทรอนิกส์",
+    "name_en": "ELECTRONIC DESIGN LABORATORY"
+  },
+  "EDU1": { "name_th": "ตึก 1", "name_en": "EDUCATION 1" },
+  "EDU2": { "name_th": "ตึก 2", "name_en": "EDUCATION 2" },
+  "EDU3": { "name_th": "ตึก 3", "name_en": "EDUCATION 3" },
+  "EDU4": { "name_th": "ตึก 4", "name_en": "EDUCATION 4" },
+  "EDU6": { "name_th": "ตึก 6", "name_en": "EDUCATION 6" },
+  "EDU7": { "name_th": "ตึก 7", "name_en": "EDUCATION 7" },
+  "EDU8": { "name_th": "ตึก 8", "name_en": "EDUCATION 8" },
+  "EDU9": { "name_th": "ตึก 9 (Satit)", "name_en": "EDUCATION 9 (SATIT)" },
+  "EE": { "name_th": "ตึกวิศวกรรมไฟฟ้า", "name_en": "ELECTRICAL ENGINEERING" },
+  "EELAB": {
+    "name_th": "ตึกภาควิชาวิศวกรรมไฟฟ้า",
+    "name_en": "ELECTRICAL ENGINEERING LABORATORY"
+  },
+  "EN100": {
+    "name_th": "ตึก 100 ปี",
+    "name_en": "ENGINEERING 100 YEARS ANNIVERSARY"
+  },
+  "ENG1": { "name_th": "ตึก 1", "name_en": "ENGINEERING 1" },
+  "ENG2": { "name_th": "ตึก 2", "name_en": "ENGINEERING 2" },
+  "ENG3": { "name_th": "ตึก 3", "name_en": "ENGINEERING 3" },
+  "ENG4": { "name_th": "ตึก 4", "name_en": "ENGINEERING 4" },
+  "ENG5": { "name_th": "ตึก 5", "name_en": "ENGINEERING 5" },
+  "ENV": {
+    "name_th": "ตึกวิศวกรรมสิ่งแวดล้อม",
+    "name_en": "ENVIRONMENTAL ENGINEERING"
+  },
+  "FA3": {
+    "name_th": "ตึกคณะศิลปกรรมศาสตร์ 3",
+    "name_en": "FACULTY OF FINE AND APPLIED ARTS 3"
+  },
+  "FA4": {
+    "name_th": "ตึกคณะศิลปกรรมศาสตร์ 4",
+    "name_en": "FACULTY OF FINE APPLIED ARTS 4"
+  },
+  "FAA1": {
+    "name_th": "ตึกศิลปกรรมศาสตร์ 1",
+    "name_en": "FACULTY OF FINE AND APPLIED ARTS 1"
+  },
+  "FAA2": {
+    "name_th": "ตึกศิลปกรรมศาสตร์ 2",
+    "name_en": "FACULTY OF FINE AND APPLIED ARTS 2"
+  },
+  "FOOD": { "name_th": "ตึกเทคโนโลยีทางอาหาร", "name_en": "FOOD TECHNOLOGY" },
+  "FOREN": { "name_th": "ตึกนิติเวชศาสตร์", "name_en": "FORENSIC SCIENCE" },
+  "GEM": {
+    "name_th": "อาคารวิจัยและตรวจสอบอัญมณี",
+    "name_en": "GEMMOLOGICAL RESEARCH AND TESTING BUILDING"
+  },
+  "GENSC": { "name_th": "ตึกวิทยาศาสตร์ทั่วไป", "name_en": "GENERAL SCIENCE" },
+  "GEO": { "name_th": "ตึกธรณีวิทยา", "name_en": "GEOLOGY" },
+  "GEW": { "name_th": "ตึกเกเวอร์ต", "name_en": "GEWERTZ" },
+  "HANS": {
+    "name_th": "ตึกภาควิชาวิศวกรรมเครื่องกล (ฮันส์ บันตสิ)",
+    "name_en": "MECHANICAL ENGINEERING (HANS BUILDING)"
+  },
+  "HEAL2": {
+    "name_th": "อาคาร 2 มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "name_en": "HEALT SCIENCE (2)"
+  },
+  "HEAL3": {
+    "name_th": "อาคารบริหารและเทคนิคการแพทย์",
+    "name_en": "HEALT SCIENCE 3"
+  },
+  "HEAL4": {
+    "name_th": "อาคาร 4 มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "name_en": "HEALT SCIENCE (4)"
+  },
+  "HV": { "name_th": "ตึกไฟฟ้าแรงสูง", "name_en": "HIGH VOLTAGE" },
+  "HVLAB": {
+    "name_th": "ตึกไฟฟ้าแรงสูง",
+    "name_en": "HIGH VOLTAGE LABORATORY"
+  },
+  "IA": { "name_th": "IA", "name_en": "IA" },
+  "ID": {
+    "name_th": "ตึกภาควิชาออกแบบอุตสาหกรรม",
+    "name_en": "DEPARTMENT OF INDUSTRIAL DESIGN"
+  },
+  "IE": {
+    "name_th": "ตึกวิศวกรรมอุตสาหการ",
+    "name_en": "INDUSTRIAL ENGINEERING"
+  },
+  "IELAB": {
+    "name_th": "ตึกภาควิชาวิศวกรรมอุตสาหการ",
+    "name_en": "INDUSTRIAL ENGINEERING LABORATORY"
+  },
+  "IN2ER": {
+    "name_th": "อาคารสถาบัน 2, สถาบันวิจัยสภาวะแวดล้อม",
+    "name_en": "INSTITUTE 2, ENVIRONMENTAL RESEARCH INSTITUTE"
+  },
+  "INST2": { "name_th": "อาคารสถาบัน 2", "name_en": "INSTITUTE 2" },
+  "INST3": {
+    "name_th": "อาคารสถาบัน 3 (วิทยาลัยวิทยาศาสตร์สาธารณสุข)",
+    "name_en": "INSTITUTE BUILDING 3 (COLLEGE OF PUBLIC HEALTH SCIENCES)"
+  },
+  "JIRA": { "name_th": "ตึกจิรประวัติ", "name_en": "JIRAPRAWAT" },
+  "KKKKK": { "name_th": "kk", "name_en": "KK" },
+  "KUMKL": {
+    "name_th": "อาคารคุ้มเกล้า โรงพยาบาลภูมิพล กรมการแพทย์ทหารอากา",
+    "name_en": "KUMKLAO, PHUMIPHOL HOSPITAL"
+  },
+  "LERT": {
+    "name_th": "อาคารเลิศ อุรัสยะนันทน์",
+    "name_en": "LERT URASYANUNT"
+  },
+  "MAHAV": {
+    "name_th": "อาคารมหาวชิราวุธ",
+    "name_en": "MAHA VAJIRAVUDH BUILDING"
+  },
+  "MAHIT": { "name_th": "อาคารมหิตลาธิเบศร", "name_en": "MAHITALADHIBESRA" },
+  "MATH": { "name_th": "ตึกคณิตศาสตร์", "name_en": "MATHEMATICS" },
+  "MATSC": { "name_th": "ตึกวัสดุศาสตร์", "name_en": "MATERIAL SCIENCE" },
+  "MCS": { "name_th": "มหาจักรีสิรินธร", "name_en": "MAHACHAKRISIRINDHORN" },
+  "MED": { "name_th": "ตึกอายุรศาสตร์", "name_en": "MEDICINE" },
+  "MED14": {
+    "name_th": "ตึกเวชศาสตร์ชันสูตร",
+    "name_en": "MEDICINE 14 OR LABORATORY MEDICINE"
+  },
+  "MELB1": { "name_th": "ตึกฮันส์ บันตลิ", "name_en": "HANS BUNTLI" },
+  "MELB2": {
+    "name_th": "ตึกปฏิบัติการเครื่องกล 2",
+    "name_en": "MECHANICAL ENGINEERING LABORATORY 2"
+  },
+  "MHMK": { "name_th": "อาคารมหามกุฎ", "name_en": "MAHAMAKUT BUILDING" },
+  "MHVH": { "name_th": "มหาวชิรุณหิศ", "name_en": "MAHA VAJIRUNHIS" },
+  "MICRO": { "name_th": "ตึกจุลชีววิทยา", "name_en": "MICROBIOLOGY" },
+  "MKSW": { "name_th": "มงกุฎสมมติวงศ์", "name_en": "MONGKUTSAMATIWONG" },
+  "MNBLD": {
+    "name_th": "ตึกภาควิชาวิศวกรรมเหมืองแร่และปิโตรเลียม",
+    "name_en": "MINING AND PETROLEUM ENGINEERING"
+  },
+  "MTBLD": {
+    "name_th": "ตึกภาควิชาวิศวกรรมโลหการ",
+    "name_en": "MATALLURGICAL ENGINEERING"
+  },
+  "NARA": {
+    "name_th": "นราธิปพงศ์ประพันธ์-สุพิณ",
+    "name_en": "NARADHIPPONG PRAPHAN-SUPIN"
+  },
+  "NART": { "name_th": "อาคารนารถ โพธิประสาท", "name_en": "NART POTIPRASART" },
+  "NIGHT": {
+    "name_th": "ตึกไนติงเกล - โอลิมปิก",
+    "name_en": "NIGHTINGALE - OLYMPIC"
+  },
+  "NT": {
+    "name_th": "ตึกนิวเคลียร์",
+    "name_en": "NUCLEAR TECHNOLOGY BUILDING"
+  },
+  "O.P.R": { "name_th": "อปร.", "name_en": "OR POR ROR" },
+  "OBROM": { "name_th": "ตึกอบรมวิชาการ", "name_en": "OBROMWICHAKARN" },
+  "OGR": {
+    "name_th": "ตึกภาควิชาสูติศาสตร์ เธนุเวชวิทยาและวิทยาการสืบพันธุ์",
+    "name_en": "OBSTETRICS GYNAECOLOGY AND REPRODUCTION"
+  },
+  "OSOT": {
+    "name_th": "สถานปฎิบัติการเภสัชกรรมชุมชน(โอสถศาลา)",
+    "name_en": "COMMUNITY PHARMACY LABORATORY (OSOTSARA) BLD."
+  },
+  "PADTA": { "name_th": "แพทยพัฒน์", "name_en": "PADTAYAPATANA" },
+  "PATH": { "name_th": "ตึกพยาธิวิทยา", "name_en": "PATHOLOGY" },
+  "PETAN": { "name_th": "สนามเปตอง", "name_en": "PETANQUE YARD" },
+  "PHA80": {
+    "name_th": "ตึก 80 ปีเภสัชศาสตร์",
+    "name_en": "80 YEAR PHARMACY BLD."
+  },
+  "PHAIN": {
+    "name_th": "อาคารนวัตกรรมทางเภสัชศาสตร์",
+    "name_en": "PHARMACY INNOVATION BLD."
+  },
+  "PHANT": { "name_th": "ตึกพันธุ์ทิพย์", "name_en": "PHANTIP" },
+  "PHAR": {
+    "name_th": "ตึกคณะ",
+    "name_en": "FACULTY OF PHARMACEUTICAL SCIENCES"
+  },
+  "PHOTO": {
+    "name_th": "ตึกวิทยาศาสตร์ทางภาพถ่ายและเทคโนโลยีทางการพิมพ์",
+    "name_en": "PHOTOGRAPHIC SCIENCE AND PRINTING TECHNOLOGY"
+  },
+  "PHYS1": { "name_th": "ตึกฟิสิกส์ 1", "name_en": "PHYSICS 1" },
+  "PINIT": { "name_th": "พินิตประชานาถ", "name_en": "PHINITPRACHANAT" },
+  "POL1": { "name_th": "ตึก 1", "name_en": "POLITICAL SCIENCE 1" },
+  "POL2": { "name_th": "ตึก 2", "name_en": "POLITICAL SCIENCE 2" },
+  "POL3": { "name_th": "ตึก 3", "name_en": "POLITICAL SCIENCE 3" },
+  "POSA": { "name_th": "ตึกโปษยานนท์", "name_en": "POSAYANOND" },
+  "PRAJ2": {
+    "name_th": "อาคารประชาธิปก-รำไพพรรณี",
+    "name_en": "PRAJADHIPOK-RAMPHAI BARNI"
+  },
+  "PRAJ7": {
+    "name_th": "อาคารประชาธิปก-รำไพพรรณี",
+    "name_en": "PRAJADHIPOK-RAMPHAI BARNI"
+  },
+  "PRAJ8": {
+    "name_th": "ประชาธิปก-รำไพพรรณี",
+    "name_en": "PRAJADHIPOK-RAMPHAIBARNI"
+  },
+  "PRAJA": {
+    "name_th": "อาคารประชาธิปก-รำไพพรรณี",
+    "name_en": "PRAJADHIPOK-RAMPHAI BARNI"
+  },
+  "PREML": {
+    "name_th": "อาคารเปรมบุรฉัตร(สถาบันภาษา)",
+    "name_en": "PREM PURACHATRA BUILDING(LANGUAGE INSTUTUTE)"
+  },
+  "PREMP": {
+    "name_th": "อาคารเปรมบุรฉัตร",
+    "name_en": "PREM PURACHATRA BUILDING"
+  },
+  "PREVM": {
+    "name_th": "ตึกภาควิชาเวชศาสตร์ป้องกันและสังคม",
+    "name_en": "DEPARTMENT OF PREVENTIVE AND SOCIAL MEDICINE"
+  },
+  "PSY": {
+    "name_th": "บรมราชชนนีศรีศตพรรษ",
+    "name_en": "BOROMMARATCHACHONNANISRISATTAPAT"
+  },
+  "PTUM5": {
+    "name_th": "อาคาร 5 มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "name_en": "PTUM 5, SRI NAKHARINWIROT UNIVERSITY"
+  },
+  "PYSIO": { "name_th": "ตึกสรีรวิทยา", "name_en": "PHYSIOLOGY" },
+  "RANG": { "name_th": "ตึกหรั่งกันตารัติ", "name_en": "RANG KANTARAT" },
+  "S K": { "name_th": "ตึก ส.ก.", "name_en": "H.M. QUEEN SIRIKIT" },
+  "S.T.C": { "name_th": "ศูนย์ฝึกนิสิต", "name_en": "STUDENT TRAINING CENTER" },
+  "SACT": {
+    "name_th": "ตึกสถานศึกษาเคมีปฏิบัติ",
+    "name_en": "SCIENCE ANALYTICAL CHEMISTRY TRAINING"
+  },
+  "SALAB": {
+    "name_th": "ตึกภาควิชาวิศวกรรมเครื่องกล (สลับ ลดาวัลย์)",
+    "name_en": "MECHANICAL BUILDING (SALAB LADAWAN)"
+  },
+  "SCI05": { "name_th": "วิทยาศาสตร์05", "name_en": "SCIENCEO5" },
+  "SCI10": { "name_th": "ตึก 7 ชั้น", "name_en": "SCIENCE 10" },
+  "SCI25": { "name_th": "อาคารมหามกุฏ", "name_en": "MAHA MAKUT BUILDING" },
+  "SCI26": { "name_th": "อาคารคลังสารเคมี", "name_en": "" },
+  "SIRIN": { "name_th": "ตึกสิรินธร", "name_en": "SIRINTHORN" },
+  "SK": { "name_th": "ตึกสิริกิติ์", "name_en": "H.M. QUEEN SIRIKIT" },
+  "SSWNB": { "name_th": "อาคารศึกษาวัฒนา", "name_en": "SUKSAWATTANA BUILDING" },
+  "SUKRI": {
+    "name_th": "ตึกสุกรี - สุภา โพธิรัตนังกูร",
+    "name_en": "SUKRI - SUPA POOTHIRATTANANGKOON"
+  },
+  "SVAS": {
+    "name_th": "สวัสดิ์-ล้อม โอสถานุเคราะห์",
+    "name_en": "SVASTJ-LOM OSATHANUGRAH"
+  },
+  "SVBLD": {
+    "name_th": "ตึกภาควิชาวิศวกรรมสำรวจ",
+    "name_en": "SURVEY ENGINEERING"
+  },
+  "TAB": { "name_th": "อาคารแถบ นีละนิธิ", "name_en": "TAB NILANITI" },
+  "TECHA": { "name_th": "ตึกเตชะไพบูลย์", "name_en": "TECHA - PAIBOON" },
+  "THEB": {
+    "name_th": "อาคารเทพทวาราวดี",
+    "name_en": "THEBTARAVADEE BUILDING"
+  },
+  "UPPA": { "name_th": "อาคารอุปการเวชกิจ", "name_en": "UPPAKARNWEJJAKIJ" },
+  "VCK1": { "name_th": "วิชชาคาม1 จ.น่าน", "name_en": "" },
+  "VCK2": { "name_th": "วิชชาคาม2 จ.น่าน", "name_en": "" },
+  "VET1": { "name_th": "ตึก 1", "name_en": "VETERINARY SCIENCE 1" },
+  "VET2": { "name_th": "ตึก 2", "name_en": "VETERINARY SCIENCE 2" },
+  "VET3": { "name_th": "ตึก 3", "name_en": "VETERINARY SCIENCE 3" },
+  "VET4": { "name_th": "ตึก 4", "name_en": "VETERINARY SCIENCE 4" },
+  "VET5": { "name_th": "ตึก 5", "name_en": "VETERINARY SCIENCE 5" },
+  "VET6": { "name_th": "ตึก 6", "name_en": "VETERINARY SCIENCE 6" },
+  "VIDF5": {
+    "name_th": "วิทยพัฒนา ชั้น 5 บัณฑิตวิทยาลัย",
+    "name_en": "VIDHAYAPATTANA BUILDING F5 GRADUATE SCHOOL"
+  },
+  "VIDHA": { "name_th": "อาคารวิทยพัฒนา", "name_en": "VIDHAYAPATTANA" },
+  "VISID": {
+    "name_th": "อาคารวิศิษฐ์ ประจวบเหมาะ",
+    "name_en": "VISID PRACHUABMOH"
+  },
+  "VOD": { "name_th": "อาคารโวฒยากร", "name_en": "VODHYAKORN" },
+  "VONG": { "name_th": "ตึกว่องวานิช", "name_en": "VONGVANIT" },
+  "VSID3": {
+    "name_th": "อาคารวิศิษฐ์ ประจวบเหมาะ",
+    "name_en": "VISID PRACHUABMOH"
+  },
+  "VSID4": {
+    "name_th": "อาคารวิศิษฐ์ ประจวบเหมาะ",
+    "name_en": "VISID PRACHUABMOH"
+  },
+  "WKB12": { "name_th": "คณะพยาบาลศาสตร์", "name_en": "FACULTY OF NURSING" },
+  "WKB13": { "name_th": "อาคารวิทยกิตต์", "name_en": "WITTHYAKIT BUILDING" },
+  "WRLAB": {
+    "name_th": "ห้องปฏิบัติการแหล่งน้ำ",
+    "name_en": "WATER RESOURCES LABORATORY"
+  },
+  "YIM3": { "name_th": "ยิมเนเซี่ยม 3", "name_en": "GYMNASIUM 3" }
+}
