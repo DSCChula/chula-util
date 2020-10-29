@@ -17,4 +17,4 @@ export const getFaculty = (code: string): Faculty | undefined => {
   return { code, ...res };
 };
 
-export * from "./buildings";
+export * from "./building";
