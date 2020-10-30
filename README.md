@@ -23,6 +23,20 @@ const eng = getFaculty("21");
 const faculties = getFacultyList(); /* list of all faculties */
 ```
 
+## Main Features
+
+- parse student ID
+  - get year, faculty from student ID
+- faculty code
+  - get faculty name from faculty code
+  - get list of all faculties
+- building abbreviation
+  - get building name from abbreviation
+  - get list of all buildings
+- course ID
+  - get course name and details from course ID
+  - get list of all courses
+
 ## Contributions
 
 To be added...
